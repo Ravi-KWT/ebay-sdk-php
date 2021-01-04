@@ -54,4 +54,9 @@ class SiteIds
     const PL = 212;
     // Singapore
     const SG = 216;
+    
+    public static function siteId($code)
+    {
+        return constant('self::'.$code);
+    }
 }
