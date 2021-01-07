@@ -57,6 +57,9 @@ class SiteIds
     
     public static function siteId($code)
     {
+        if ($code == 'ENG') {
+            return 3;
+        }
         return constant('self::'.$code);
     }
 }
