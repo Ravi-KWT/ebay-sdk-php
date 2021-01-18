@@ -15,6 +15,7 @@ class SiteIds
     // Canada (English)
     const ENCA = 2;
     // UK
+    const UK = 3;
     const GB = 3;
     // Australia
     const AU = 15;
