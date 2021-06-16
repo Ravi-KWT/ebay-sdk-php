@@ -20,6 +20,12 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
+        'RequesterCredentials' => [
+            'type' => 'DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'RequesterCredentials'
+        ],
         'MessageID' => [
             'type' => 'string',
             'repeatable' => false,
